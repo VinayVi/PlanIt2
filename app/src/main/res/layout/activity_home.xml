@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/CreateEvent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@dimen/main_activity_button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:drawableLeft="@mipmap/ic_launcher_round"
+        android:text="@string/create_event"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/JoinEvent"
+        android:layout_below="@id/CreateEvent"
+        android:layout_width="@dimen/main_activity_button_width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@mipmap/ic_launcher_round"
+        android:text="@string/join_event"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/About"
+        android:layout_below="@id/JoinEvent"
+        android:layout_width="@dimen/main_activity_button_width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@mipmap/ic_launcher_round"
+        android:text="@string/about"
+        android:textSize="20sp" />
+
+</RelativeLayout>
