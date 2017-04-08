@@ -1,7 +1,6 @@
 local.properties
 .idea/workspace.xml
 app/libs/
-app/src/main/res/drawable/
 build/android-profile/profile-2017-04-07-22-32-55-261.rawproto
 build/android-profile/profile-2017-04-07-22-33-11-310.rawproto
 *.iml
