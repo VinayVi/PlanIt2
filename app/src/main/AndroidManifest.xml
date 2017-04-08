@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EventNameActivity"></activity>
+        <activity android:name=".EventNameActivity" />
+        <activity android:name=".RecentlyViewedActivity"></activity>
     </application>
 
 </manifest>
